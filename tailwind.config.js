@@ -9,6 +9,7 @@ module.exports = {
       font1: '#6C5B7A',
       font2: '#345C7D',
       white: '#FFFFFF',
+      product: '#F1F1F1',
     },
   },
   plugins: [],
