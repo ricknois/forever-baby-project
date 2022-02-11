@@ -14,3 +14,12 @@ export const categories = [
   'Hidratantes',
   'Lenços umedecidos',
 ];
+
+export const products = [
+  { name: 'Lorem ipsum', price: 99.99, rate: 5 },
+  { name: 'Lorem ipsum', price: 99.99, rate: 4 },
+  { name: 'Lorem ipsum', price: 99.99, rate: 2 },
+  { name: 'Lorem ipsum', price: 99.99, rate: 3 },
+  { name: 'Lorem ipsum', price: 99.99, rate: 1 },
+  { name: 'Lorem ipsum', price: 99.99, rate: 5 },
+];

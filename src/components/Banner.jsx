@@ -14,7 +14,7 @@ export default function Banner({ data }) {
   return (
     <Slider {...settings}>
       {data.map((item, index) => (
-        <div className='h-80 bg-product' key={index}></div>
+        <div className='h-bannerMH bg-product md:h-bannerDH' key={index}></div>
       ))}
     </Slider>
   );
