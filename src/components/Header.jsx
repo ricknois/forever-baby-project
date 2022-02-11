@@ -31,7 +31,10 @@ export default function Header() {
           <img className='w-20 md:mr-16 md:w-40' src={logo} alt='logo' />
         </Link>
         <div className='hidden flex-grow md:flex'>
-          <SearchBar />
+          <SearchBar
+            placeholder='Qual o mimo de hoje para seu anjinho ?'
+            name='BUSCAR'
+          />
         </div>
 
         <div className='mr-5 flex flex-grow justify-end md:ml-14 md:mr-10 md:flex-grow-0'>
@@ -57,7 +60,10 @@ export default function Header() {
         </div>
       </div>
       <div className='md:hidden'>
-        <SearchBar />
+        <SearchBar
+          placeholder='Qual o mimo de hoje para seu anjinho ?'
+          name='BUSCAR'
+        />
       </div>
       <div className='hidden items-center justify-around bg-back2 md:flex'>
         {categories.map((item, index) => (

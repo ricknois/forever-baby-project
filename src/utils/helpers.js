@@ -6,6 +6,22 @@ export const searchValidation = (input, stateSetter) => {
   }
 };
 
+export const sendEmail = async (email) => {
+  const response = await fetch(
+    'https://foreverliss1.websiteseguro.com/teste-dev/newsletter.php',
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({ email: email }),
+    }
+  );
+  const json = await response.json();
+  return json;
+};
+
 export const categories = [
   'Perfume infantil',
   'Sabonetes',

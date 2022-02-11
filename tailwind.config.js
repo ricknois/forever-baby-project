@@ -5,6 +5,7 @@ module.exports = {
       spacing: {
         bannerMH: '26rem',
         bannerDH: '23rem',
+        newsInputDW: '40rem',
       },
     },
     colors: {
@@ -14,6 +15,7 @@ module.exports = {
       font1: '#6C5B7A',
       font2: '#345C7D',
       white: '#FFFFFF',
+      black: '#000000',
       product: '#F1F1F1',
       cart: '#FF8A00',
     },

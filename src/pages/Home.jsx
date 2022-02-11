@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import { products } from '../utils/helpers';
 import Products from '../components/Products';
+import Newsletter from '../components/Newsletter';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner data={[0, 0, 0, 0, 0, 0, 0]} />
       <Products title='FOREVER BABY' detach='DESTAQUES' data={products} />
       <Products title='FOREVER BABY' detach='DESTAQUES' data={products} />
+      <Newsletter />
     </div>
   );
 }
