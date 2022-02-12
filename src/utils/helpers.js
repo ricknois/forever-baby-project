@@ -1,3 +1,8 @@
+import Insta from '../assets/Insta.png';
+import Face from '../assets/Face.png';
+import Yt from '../assets/Yt.png';
+import Tik from '../assets/tik.png';
+
 export const searchValidation = (input, stateSetter) => {
   if (input.length < 3) {
     return stateSetter('O formulário deve haver ao menos 3 caracteres');
@@ -29,6 +34,13 @@ export const categories = [
   'Assaduras',
   'Hidratantes',
   'Lenços umedecidos',
+];
+
+export const networks = [
+  { logo: Insta, link: 'https://www.instagram.com/foreverliss/' },
+  { logo: Face, link: 'https://www.facebook.com/foreverliss' },
+  { logo: Yt, link: 'https://www.youtube.com/c/ForeverLissOficial' },
+  { logo: Tik, link: 'https://www.tiktok.com/@foreverlissprofessional' },
 ];
 
 export const products = [

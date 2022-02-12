@@ -18,6 +18,7 @@ module.exports = {
       black: '#000000',
       product: '#F1F1F1',
       cart: '#FF8A00',
+      footer: '#AAAAAA',
     },
   },
   plugins: [],
