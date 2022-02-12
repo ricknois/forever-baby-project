@@ -12,9 +12,12 @@ export default function Banner({ data }) {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
-      {data.map((item, index) => (
-        <div className='h-bannerMH bg-product md:h-bannerDH' key={index}></div>
+    <Slider {...settings} className='mx-7'>
+      {data.map((index) => (
+        <div
+          className='h-bannerMH w-full bg-product md:h-bannerDH'
+          key={index}
+        ></div>
       ))}
     </Slider>
   );

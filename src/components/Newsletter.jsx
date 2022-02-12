@@ -1,7 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import { sendEmail } from '../utils/helpers';
-import Alerts from './Alerts';
 import { useAlert } from 'react-alert';
 
 export default function Newsletter() {

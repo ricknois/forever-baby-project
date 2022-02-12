@@ -3,14 +3,6 @@ import Face from '../assets/Face.png';
 import Yt from '../assets/Yt.png';
 import Tik from '../assets/tik.png';
 
-export const searchValidation = (input, stateSetter) => {
-  if (input.length < 3) {
-    return stateSetter('O formulário deve haver ao menos 3 caracteres');
-  } else if (/[^0-9a-zA-Z]/.test(input)) {
-    return stateSetter('O formulário não pode conter caracteres especiais');
-  }
-};
-
 export const sendEmail = async (email) => {
   const response = await fetch(
     'https://foreverliss1.websiteseguro.com/teste-dev/newsletter.php',
